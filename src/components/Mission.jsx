@@ -2,7 +2,7 @@ import './Mission.css'
 import useFetch from "../hooks/useFetch.js";
 
 function Mission() {
-  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/home?populate[pagecontent][populate]=*");
+  const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/home?populate[pagecontent][populate]=*");
 
   if (loading) return <div className="mission-section loading">Loading...</div>;
   if (error) return <div className="mission-section error">Error loading content</div>;

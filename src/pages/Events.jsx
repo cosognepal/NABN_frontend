@@ -4,7 +4,7 @@ import Footer from "../components/Footer.jsx";
 import useFetch from "../hooks/useFetch.js";
 
 export default function Events() {
-  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/events?populate=*&pagination[pageSize]=250");
+  const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/events?populate=*&pagination[pageSize]=250");
   
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :(</p>;

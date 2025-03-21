@@ -4,7 +4,7 @@ import Footer from "../components/Footer.jsx";
 import useFetch from "../hooks/useFetch.js";
 
 function AboutUs() {
-  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/about?populate[pagecontent][populate]=*");
+  const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/about?populate[pagecontent][populate]=*");
 
   // Handle loading and error states
   if (loading) return (

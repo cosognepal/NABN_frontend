@@ -2,7 +2,7 @@ import './Hero.css'
 import useFetch from "../hooks/useFetch.js";
 
 function Hero() {
-  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/home?populate[pagecontent][populate]=*");
+  const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/home?populate[pagecontent][populate]=*");
 
   if (loading) return <div className="hero-section loading">Loading...</div>;
   if (error) return <div className="hero-section error">Error loading content</div>;
