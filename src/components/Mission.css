@@ -1,32 +1,77 @@
 .mission-section {
-  padding: 4rem 0;
+  padding: 4rem 1rem; /* Added horizontal padding for small screens */
   background-color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .mission-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr; /* Default to single column on mobile */
   gap: 2rem;
 }
 
 .mission-card {
   text-align: center;
   padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
 }
 
 .mission-icon {
-  width: 3rem;
-  height: 3rem;
-  margin: 0 auto 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto 1.5rem;
   object-fit: contain;
 }
 
 .mission-title {
   font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .mission-description {
   color: #4b5563;
+  line-height: 1.5;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  .mission-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on tablet */
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 1024px) {
+  .mission-grid {
+    grid-template-columns: repeat(3, 1fr); /* Three columns on desktop */
+  }
+  
+  .mission-section {
+    padding: 5rem 2rem;
+  }
+}
+
+/* Loading and error states */
+.mission-section.loading,
+.mission-section.error {
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 1.25rem;
+  color: #4b5563;
+}
+
+.mission-section.error {
+  color: #ef4444;
 }
