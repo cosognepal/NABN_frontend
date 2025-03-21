@@ -2,7 +2,7 @@ import './Hero.css'
 import useFetch from "../hooks/useFetch.js";
 
 function Hero() {
-  const { loading, error, data } = useFetch("http://localhost:1337/api/home?populate[pagecontent][populate]=*");
+  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/home?populate[pagecontent][populate]=*");
 
   if (loading) return <div className="hero-section loading">Loading...</div>;
   if (error) return <div className="hero-section error">Error loading content</div>;
@@ -18,9 +18,8 @@ function Hero() {
     component => component.__component === "components.image"
   );
   
-  const imageUrl = imageComponent?.image 
-    ? `http://localhost:1337${imageComponent.image.url}` 
-    : null;
+  // Use the full URL directly as it already includes the domain in cloud deployment
+  const imageUrl = imageComponent?.image?.url || null;
 
   return (
     <section className="hero-section">
@@ -33,13 +32,12 @@ function Hero() {
             <p className="hero-description">
               Empowering Nepal's youth
             </p>
-            <a
-              href="https://www.facebook.com/nabn.nepal/"
+            
+            <a href="https://www.facebook.com/nabn.nepal/"
               target="_blank"
               rel="noopener noreferrer"
               className="button button-primary"
             >
-              
               {ctaComponent?.CTAbutton || "Learn More"}
             </a>
           </div>

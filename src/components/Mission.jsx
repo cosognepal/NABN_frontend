@@ -2,7 +2,7 @@ import './Mission.css'
 import useFetch from "../hooks/useFetch.js";
 
 function Mission() {
-  const { loading, error, data } = useFetch("http://localhost:1337/api/home?populate[pagecontent][populate]=*");
+  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/home?populate[pagecontent][populate]=*");
 
   if (loading) return <div className="mission-section loading">Loading...</div>;
   if (error) return <div className="mission-section error">Error loading content</div>;
@@ -13,18 +13,10 @@ function Mission() {
     component => component.__component === "components.missionsection"
   );
 
-  // Construct image URLs
-  const icon1Url = missionSection?.icon1 
-    ? `http://localhost:1337${missionSection.icon1.url}` 
-    : null;
-    
-  const icon2Url = missionSection?.icon2
-    ? `http://localhost:1337${missionSection.icon2.url}` 
-    : null;
-    
-  const icon3Url = missionSection?.icon3
-    ? `http://localhost:1337${missionSection.icon3.url}` 
-    : null;
+  // Use the full URLs directly as they already include the domain in cloud deployment
+  const icon1Url = missionSection?.icon1?.url || null;
+  const icon2Url = missionSection?.icon2?.url || null;
+  const icon3Url = missionSection?.icon3?.url || null;
 
   return(
     <section className="mission-section">

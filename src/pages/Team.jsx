@@ -5,7 +5,7 @@ import useFetch from "../hooks/useFetch.js";
 import "./Team.css";
 
 function Team() {
-  const { loading, error, data } = useFetch("http://localhost:1337/api/team?populate[pagecontent][populate]=*");
+  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/team?populate[pagecontent][populate]=*");
 
   useEffect(() => {
     // Set page title when component mounts

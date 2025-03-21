@@ -4,7 +4,7 @@ import Footer from "../components/Footer.jsx";
 import useFetch from "../hooks/useFetch.js";
 
 export default function Events() {
-  const { loading, error, data } = useFetch("http://localhost:1337/api/events?populate=*&pagination[pageSize]=250");
+  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/events?populate=*&pagination[pageSize]=250");
   
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :(</p>;
@@ -23,10 +23,8 @@ export default function Events() {
       <div className="events-container">
         {reversedEvents.length > 0 ? (
           reversedEvents.map(event => {
-            // Construct the full image URL - the image is nested in the event object
-            const imageUrl = event.image
-              ? `http://localhost:1337${event.image.url}`
-              : "placeholder-image.jpg";
+            // Use the full URL directly as it already includes the domain in cloud deployment
+            const imageUrl = event.image?.url || "placeholder-image.jpg";
               
             return (
               <div key={event.id} className="event-card">

@@ -2,7 +2,7 @@ import './Impact.css'
 import useFetch from "../hooks/useFetch.js";
 
 function Impact() {
-  const { loading, error, data } = useFetch("http://localhost:1337/api/home?populate[pagecontent][populate]=*");
+  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/home?populate[pagecontent][populate]=*");
 
   if (loading) return <div className="impact-section loading">Loading...</div>;
   if (error) return <div className="impact-section error">Error loading content</div>;

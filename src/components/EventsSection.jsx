@@ -3,7 +3,7 @@ import useFetch from "../hooks/useFetch.js";
 import { Link } from "react-router-dom";
 
 function EventsSection() {
-  const { loading, error, data } = useFetch("http://localhost:1337/api/events?populate=*&sort=createdAt:desc&pagination[limit]=4");
+  const { loading, error, data } = useFetch("https://fruitful-bird-87f724db7d.strapiapp.com/api/events?populate=*&sort=createdAt:desc&pagination[limit]=4");
 
   // Handle loading and error states
   if (loading) return <div className="events loading">Loading events...</div>;
@@ -21,9 +21,8 @@ function EventsSection() {
       <div className="events--images">
         {events.length > 0 ? (
           events.map((event) => {
-            const imageUrl = event.image
-              ? `http://localhost:1337${event.image.url}`
-              : "placeholder-image.jpg";
+            // Use the full URL directly as it already includes the domain in cloud deployment
+            const imageUrl = event.image?.url || "placeholder-image.jpg";
             
             return (
               <div key={event.id} className="event--container">
