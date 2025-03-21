@@ -25,11 +25,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/AboutUs.jsx" element={<AboutUs />} /> 
-          <Route path="/Events.jsx" element={<Events />} />
-          <Route path="/Team.jsx" element={<Team />} /> 
-          <Route path="/Contact.jsx" element={<Contact />} /> 
-          <Route path="/Donate.jsx" element={<Donate />} /> 
+          <Route path="/AboutUs" element={<AboutUs />} /> 
+          <Route path="/Events" element={<Events />} />
+          <Route path="/Team" element={<Team />} /> 
+          <Route path="/Contact" element={<Contact />} /> 
+          <Route path="/Donate" element={<Donate />} /> 
         </Routes>
       </BrowserRouter>
     </>
