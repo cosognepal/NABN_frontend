@@ -44,10 +44,8 @@ function Team() {
       // Start a new member
       currentMember = { name: content.subtitle };
     } else if (content.__component === "components.image") {
-      // Add image to current member
-      const imageUrl = content.image?.url 
-        ? `http://localhost:1337${content.image.url}` 
-        : "/placeholder-avatar.png";
+      // Add image to current member - use the full URL directly
+      const imageUrl = content.image?.url || "/placeholder-avatar.png";
       currentMember.image = imageUrl;
     } else if (content.__component === "components.description") {
       // Add description to current member

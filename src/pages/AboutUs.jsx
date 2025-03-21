@@ -45,10 +45,8 @@ function AboutUs() {
     }
   });
   
-  // Construct the image URL if available
-  const imageUrl = backgroundImage?.image 
-    ? `http://localhost:1337${backgroundImage.image.url}` 
-    : null;
+  // Use the full URL directly as it already includes the domain in cloud deployment
+  const imageUrl = backgroundImage?.image?.url || null;
 
   return (
     <>
