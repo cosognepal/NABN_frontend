@@ -1,0 +1,45 @@
+.cta-section {
+    padding: 4rem 0;
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+  }
+  
+.cta-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.cta-description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button-primary {
+    background-color: white;
+    color: #2563eb;
+}
+
+.button-primary:hover {
+    background-color: #c5cace;
+}
+
+.button-secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-left: 1rem;
+}
+
+.button-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

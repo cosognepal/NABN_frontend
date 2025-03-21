@@ -1,0 +1,95 @@
+.hero-section {
+  position: relative;
+  background: linear-gradient(to right, #F9FAFB, #F9FAFB);
+  color: black;
+  padding: 5rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-image img {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.25rem;
+  border: 1.5px solid black;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.button-primary {
+  background-color: #3182CE;
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #2B6CB0;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .hero-image {
+    justify-content: center;
+  }
+  
+  .mission-grid,
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .button-secondary {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
