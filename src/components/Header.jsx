@@ -34,7 +34,7 @@ function Header() {
           <li><a href="/events">EVENTS</a></li>
           <li><a href="/team">TEAM</a></li>
           <li><a href="/contact">CONTACT</a></li>
-          <li><a href="/donate">DONATE</a></li>
+          <li><a href="https://www.facebook.com/nabn.nepal/">DONATE</a></li>
 
         </ul>
       </nav>

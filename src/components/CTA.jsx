@@ -24,7 +24,7 @@ function CTA() {
         </p>
         <div>
           <button className="button button-primary">
-            <a href="#">
+            <a href="https://www.facebook.com/nabn.nepal/">
             {ctaSection?.CTAbutton || "Donate Now"}
             </a>
 
