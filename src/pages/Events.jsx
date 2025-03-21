@@ -9,21 +9,25 @@ export default function Events() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error :(</p>;
   
-  console.log(data);
-  
   // Get the events data from the response
   const events = data?.data || [];
   
-  // Create a copy of the events array and reverse it
-  const reversedEvents = [...events].reverse();
+  // Sort events by date (newest first)
+  const sortedEvents = [...events].sort((a, b) => {
+    // Convert strings to Date objects for comparison
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    // Sort in descending order (newest first)
+    return dateB - dateA;
+  });
   
   return (
     <div className="events-page">
       <Header />
       <div className="events-container">
-        {reversedEvents.length > 0 ? (
-          reversedEvents.map(event => {
-            // Use the full URL directly as it already includes the domain in cloud deployment
+        {sortedEvents.length > 0 ? (
+          sortedEvents.map(event => {
+            // Use the full URL directly from the API
             const imageUrl = event.image?.url || "placeholder-image.jpg";
               
             return (
