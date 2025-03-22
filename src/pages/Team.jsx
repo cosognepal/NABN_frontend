@@ -5,7 +5,7 @@ import useFetch from "../hooks/useFetch.js";
 import "./Team.css";
 
 function Team() {
-  const { loading, error, data } = useFetch("http://localhost:1337/api/teammembers?populate=*");
+  const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/teammembers?populate=*");
 
   useEffect(() => {
     // Set page title when component mounts
@@ -43,7 +43,7 @@ function Team() {
               <div key={member.id} className="team-member">
                 <div className="member-image-container">
                   <img 
-                    src={member.image?.url ? `http://charming-trust-6afb776746.strapiapp.com${member.image.url}` : "/placeholder-avatar.png"} 
+                    src={member.image?.url || "/placeholder-avatar.png"} 
                     alt={`${member.name} portrait`} 
                     className="member-image"
                   />
