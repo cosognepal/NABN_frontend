@@ -8,7 +8,6 @@ function Team() {
   const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/teammembers?populate=*");
 
   useEffect(() => {
-    // Set page title when component mounts
     document.title = "Our Team | NABN";
   }, []);
 
@@ -28,7 +27,6 @@ function Team() {
     </div>
   );
 
-  // Get the team members data from the response
   const teamMembers = data?.data || [];
 
   return (
@@ -36,7 +34,6 @@ function Team() {
       <Header />
       <div className="team-container">
         <h1 className="team-title">Our Team</h1>
-        
         <div className="team-members">
           {teamMembers.length > 0 ? (
             teamMembers.map(member => (
@@ -51,18 +48,9 @@ function Team() {
                 <div className="member-details">
                   <h2 className="member-name">{member.name}</h2>
                   <p className="member-position">{member.position}</p>
-                  <div className="member-contact-info">
-                    {member.phone && (
-                      <p className="member-phone">
-                        <span className="contact-label">Phone:</span> {member.phone}
-                      </p>
-                    )}
-                    {member.address && (
-                      <p className="member-address">
-                        <span className="contact-label">Address:</span> {member.address}
-                      </p>
-                    )}
-                  </div>
+                  {member.description && (
+                    <p className="member-description">{member.description}</p>
+                  )}
                 </div>
               </div>
             ))

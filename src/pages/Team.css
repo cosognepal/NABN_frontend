@@ -101,7 +101,6 @@
   margin-top: 8px;
 }
 
-/* New styles for additional information */
 .member-position {
   color: #4682B4;
   font-weight: 600;
@@ -109,24 +108,11 @@
   font-size: 1.1rem;
 }
 
-.member-contact-info {
-  margin-top: 15px;
-  border-top: 1px solid #eee;
-  padding-top: 15px;
-  font-size: 0.95rem;
-}
-
-.member-phone, .member-address {
-  margin: 8px 0;
-  color: #666;
-  line-height: 1.4;
-}
-
-.contact-label {
-  font-weight: 600;
+.member-description {
+  margin-top: 10px;
   color: #555;
-  display: inline-block;
-  min-width: 70px;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 /* Responsive adjustments */
