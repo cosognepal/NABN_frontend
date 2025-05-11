@@ -1,25 +1,30 @@
-import './Hero.css'
-import useFetch from "../hooks/useFetch.js";
+import "./Hero.css";
+// import useFetch from "../hooks/useFetch.js";
+import Data from "../data/home";
+import { Link } from "react-router-dom";
 
 function Hero() {
-  const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/home?populate[pagecontent][populate]=*");
+  // const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/home?populate[pagecontent][populate]=*");
 
-  if (loading) return <div className="hero-section loading">Loading...</div>;
-  if (error) return <div className="hero-section error">Error loading content</div>;
+  // if (loading) return <div className="hero-section loading">Loading...</div>;
+  // if (error) return <div className="hero-section error">Error loading content</div>;
 
-  // Find the CTA component for the button text
-  const pageContent = data?.data?.pagecontent || [];
-  const ctaComponent = pageContent.find(
-    component => component.__component === "components.cta"
-  );
-  
-  // Find the image component
-  const imageComponent = pageContent.find(
-    component => component.__component === "components.image"
-  );
-  
-  // Use the full URL directly as it already includes the domain in cloud deployment
-  const imageUrl = imageComponent?.image?.url || null;
+  // // Find the CTA component for the button text
+  // const pageContent = data?.data?.pagecontent || [];
+  // const ctaComponent = pageContent.find(
+  //   component => component.__component === "components.cta"
+  // );
+
+  // // Find the image component
+  // const imageComponent = pageContent.find(
+  //   component => component.__component === "components.image"
+  // );
+
+  // // Use the full URL directly as it already includes the domain in cloud deployment
+  // const imageUrl = imageComponent?.image?.url || null;
+
+  const heroSection = Data.heroSection;
+  const imageUrl = heroSection?.image?.url || null;
 
   return (
     <section className="hero-section">
@@ -27,27 +32,23 @@ function Hero() {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              National Adolescent Boys Network Nepal
+              {heroSection?.title || "Empowering Nepal's Youth"}
             </h1>
             <p className="hero-description">
-              Empowering Nepal's youth
+              {heroSection?.subtitle ||
+                "Join us in our mission to empower and uplift the youth of Nepal."}
             </p>
-            
-            <a href="https://www.facebook.com/nabn.nepal/"
-              target="_blank"
+
+            <Link
+              to={heroSection?.CTAbuttonlink || "#"}
               rel="noopener noreferrer"
               className="button button-primary"
             >
-              {ctaComponent?.CTAbutton || "Learn More"}
-            </a>
+              {heroSection?.CTAbutton || "Learn More"}
+            </Link>
           </div>
           <div className="hero-image">
-            {imageUrl && (
-              <img 
-                src={imageUrl} 
-                alt="NDBN Nepal Logo" 
-              />
-            )}
+            {imageUrl && <img src={imageUrl} alt="NABN Nepal Logo" />}
           </div>
         </div>
       </div>

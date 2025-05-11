@@ -1,17 +1,20 @@
 import './Impact.css'
-import useFetch from "../hooks/useFetch.js";
+import HomeData from "../data/home";
 
 function Impact() {
-  const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/home?populate[pagecontent][populate]=*");
+  // const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/home?populate[pagecontent][populate]=*");
 
-  if (loading) return <div className="impact-section loading">Loading...</div>;
-  if (error) return <div className="impact-section error">Error loading content</div>;
+  // if (loading) return <div className="impact-section loading">Loading...</div>;
+  // if (error) return <div className="impact-section error">Error loading content</div>;
 
-  // Find the impact section component
-  const pageContent = data?.data?.pagecontent || [];
-  const impactSection = pageContent.find(
-    component => component.__component === "components.impactsection"
-  );
+  
+  // // Find the impact section component
+  // const pageContent = data?.data?.pagecontent || [];
+  // const impactSection = pageContent.find(
+  //   component => component.__component === "components.impactsection"
+  // );
+
+  const impactSection = HomeData.impactSection;
 
   return (
     <section className="impact-section">

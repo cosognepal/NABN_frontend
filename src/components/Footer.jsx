@@ -9,16 +9,16 @@ function Footer() {
           <div className="footer-section footer-about">
             <h3>NABN</h3>
             <p>
-              Empowering Nepal's youth.
+              Empowering Nepal&apos;s youth.
             </p>
           </div>
           <div className="footer-section footer-links-section">
             <h3>Quick Links</h3>
             <div className="footer-links">
-              <Link to="/AboutUs">About Us</Link>
-              <Link to="/Events">Events</Link>
-              <Link to="/Contact">Contact</Link>
-              <Link to="/Donate">Donate</Link>
+              <Link to="/about">About Us</Link>
+              <Link to="/events">Events</Link>
+              <Link to="/contact">Contact</Link>
+              <Link to="/donate">Donate</Link>
             </div>
           </div>
           <div className="footer-section footer-contact">

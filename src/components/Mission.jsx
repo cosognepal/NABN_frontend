@@ -1,19 +1,25 @@
 import './Mission.css'
-import useFetch from "../hooks/useFetch.js";
+// import useFetch from "../hooks/useFetch.js";
+import Data from "../data/home.js";
 
 function Mission() {
-  const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/home?populate[pagecontent][populate]=*");
+  // const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/home?populate[pagecontent][populate]=*");
 
-  if (loading) return <div className="mission-section loading">Loading...</div>;
-  if (error) return <div className="mission-section error">Error loading content</div>;
+  // if (loading) return <div className="mission-section loading">Loading...</div>;
+  // if (error) return <div className="mission-section error">Error loading content</div>;
 
-  // Find the mission section component
-  const pageContent = data?.data?.pagecontent || [];
-  const missionSection = pageContent.find(
-    component => component.__component === "components.missionsection"
-  );
+  // // Find the mission section component
+  // const pageContent = data?.data?.pagecontent || [];
+  // const missionSection = pageContent.find(
+  //   component => component.__component === "components.missionsection"
+  // );
 
-  // Use the full URLs directly as they already include the domain in cloud deployment
+  // // Use the full URLs directly as they already include the domain in cloud deployment
+  // const icon1Url = missionSection?.icon1?.url || null;
+  // const icon2Url = missionSection?.icon2?.url || null;
+  // const icon3Url = missionSection?.icon3?.url || null;
+
+  const missionSection = Data.missionSection;
   const icon1Url = missionSection?.icon1?.url || null;
   const icon2Url = missionSection?.icon2?.url || null;
   const icon3Url = missionSection?.icon3?.url || null;

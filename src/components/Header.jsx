@@ -30,7 +30,7 @@ function Header() {
       <nav className={`nav-links ${mobileMenuOpen ? 'open' : ''}`}>
         <ul>
           <li><a href="/">HOME</a></li>
-          <li><a href="/AboutUs">ABOUT US</a></li>
+          <li><a href="/about">ABOUT US</a></li>
           <li><a href="/events">EVENTS</a></li>
           <li><a href="/team">TEAM</a></li>
           <li><a href="/contact">CONTACT</a></li>
