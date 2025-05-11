@@ -32,7 +32,7 @@ function CTA() {
         </p>
         <div>
           <button className="button button-primary">
-            <Link to="/about" rel="noopener noreferrer">
+            <Link to={ctaSection?.CTAbuttonLink} rel="noopener noreferrer">
               {ctaSection?.CTAbutton || "Donate Now"}
             </Link>
           </button>

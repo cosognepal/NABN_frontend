@@ -40,7 +40,7 @@ const data = {
     CTAtitle: "Ready to Make a Difference?",
     CTAsubtitle: "Join us in empowering Nepal's youth",
     CTAbutton: "Learn More",
-    buttonLink: "/about",
+    CTAbuttonLink: "/about",
   },
 };
 
