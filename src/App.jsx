@@ -8,8 +8,6 @@ import Donate from "./pages/Donate.jsx"
 import './index.css'
 import { useEffect } from 'react';
 
-
-
 function App() {
 
   useEffect(() => {
