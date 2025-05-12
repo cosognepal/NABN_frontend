@@ -1,6 +1,8 @@
+import AboutUsImage from "../assets/images/about.jpg";
+
 const data = {
   image: {
-    url: "",
+    url: AboutUsImage,
   },
   contentSections: [
     {
