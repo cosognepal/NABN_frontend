@@ -119,7 +119,7 @@ export default function Events() {
           Prev
         </button>
         {pageNumber>=3?<button className="pagination-page" onClick={handlePageSelect}>1</button>:null}
-        {pageNumber > 3 ? <div>...</div> : null}
+        {pageNumber > 3 ? <div className="pagination-truncated">...</div> : null}
         {pageNumber + 1 >= 3 ? (
           <button className="pagination-page" onClick={handlePageSelect}>{pageNumber - 1}</button>
         ) : null}
@@ -133,7 +133,7 @@ export default function Events() {
         {pageNumber + 3 <= numberOfPages ? (
           <button className="pagination-page" onClick={handlePageSelect}>{pageNumber + 3}</button>
         ) : null}
-        {pageNumber + 4 < numberOfPages ? <div>...</div> : null}
+        {pageNumber + 4 < numberOfPages ? <div className="pagination-truncated">...</div> : null}
         {pageNumber + 3 < numberOfPages ? (
           <button className="pagination-page" onClick={handlePageSelect}>{numberOfPages}</button>
         ) : null}
