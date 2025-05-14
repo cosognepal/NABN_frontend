@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
+import logo from "../assets/logo.png";
 // import useFetch from "../hooks/useFetch.js";
 import "./Team.css";
 
@@ -42,7 +43,7 @@ function Team() {
               <div key={member.id} className="team-member">
                 <div className="member-image-container">
                   <img
-                    src={member.image?.url || "/placeholder-avatar.png"}
+                    src={member.image?.url || logo}
                     alt={`${member.name} portrait`}
                     className="member-image"
                   />

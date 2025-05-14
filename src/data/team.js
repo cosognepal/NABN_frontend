@@ -1,6 +1,9 @@
 import BibekShah from "../assets/images/team/Bibek_shah.jpeg";
+import BigyanShrestha from "../assets/images/team/Bigyan_Shrestha.jpeg";
 import BijayaRajJosi from "../assets/images/team/Bijaya_raj_josi.jpeg";
 import BishwajitKc from "../assets/images/team/Bishwajit_kc.jpeg";
+import DilliAdhikari from "../assets/images/team/Dilli_Adhikari.jpeg";
+import DiwashSarraf from "../assets/images/team/Diwash_Sarraf.jpeg";
 import FirojKhadka from "../assets/images/team/Firoj_khadka.jpeg";
 import GhanashyamBishwokarma from "../assets/images/team/Ghanashyam_Bishwokarma.jpeg";
 import GovindaRajAwasth from "../assets/images/team/Govinda_raj_awasth.jpeg";
@@ -12,18 +15,51 @@ import PrakashSharma from "../assets/images/team/Prakash_sharma.jpeg";
 import PralavParajuli from "../assets/images/team/pralav_Parajuli.jpeg";
 import RahulMahato from "../assets/images/team/Rahul_mahato.jpeg";
 import RakeshDhami from "../assets/images/team/Rakesh_dhami.jpeg";
+import SonuRajput from "../assets/images/team/Sonu_Rajput.jpeg";
 import SudipPaudel from "../assets/images/team/Sudip_Paudel.jpeg";
 import SumanYadav from "../assets/images/team/Suman_yadav.jpeg";
 import SushantShrestha from "../assets/images/team/Sushant_Shrestha.jpeg";
 
 const data = [
   {
-    name: "Ghanashyam Bishwokarma",
+    name: "Ghanshyam Bishwakarma",
     position: "President",
     image: {
       url: GhanashyamBishwokarma,
     },
-    description: "description Placeholder",
+    description: "Banphikot-5 , Rukum (west), Karnali",
+  },
+  {
+    name: "Rahul Kumar Mahato",
+    position: "Vice-President",
+    image: {
+      url: RahulMahato,
+    },
+    description: "Bardibas-9, Mahottari, Madhesh",
+  },
+  {
+    name: "Sudip Poudel",
+    position: "Secretary",
+    image: {
+      url: SudipPaudel,
+    },
+    description: "Bheerkot -5, Syangja,Gandaki",
+  },
+  {
+    name: "Suman Yadav",
+    position: "Vice-Secretary",
+    image: {
+      url: SumanYadav,
+    },
+    description: "Biratnagar -14 Morang, Koshi",
+  },
+  {
+    name: "Bibek Sah",
+    position: "Treasurer",
+    image: {
+      url: BibekShah,
+    },
+    description: "Dudhauli -4 ,Sindhuli, Bagmati",
   },
   {
     name: "Nirijana Bhattarai",
@@ -34,125 +70,148 @@ const data = [
     description: "description Placeholder",
   },
   {
-    name: "Sudip Paudel",
-    position: "Position Placeholder",
-    image: {
-      url: SudipPaudel,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Jiwan Bhushal",
-    position: "Position Placeholder",
-    image: {
-      url: JiwanBhushal,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Bishwajit kc",
-    position: "Position Placeholder",
-    image: {
-      url: BishwajitKc,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Bibek Shah",
-    position: "Position Placeholder",
-    image: {
-      url: BibekShah,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Bijaya Raj Josi",
-    position: "Position Placeholder",
-    image: {
-      url: BijayaRajJosi,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Firoj Khadka",
-    position: "Position Placeholder",
-    image: {
-      url: FirojKhadka,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Govinda Raj Awasth",
-    position: "Position Placeholder",
-    image: {
-      url: GovindaRajAwasth,
-    },
-    description: "description Placeholder",
-  },
-
-  {
-    name: "Prabesh Raj Pandey",
-    position: "Position Placeholder",
-    image: {
-      url: PrabeshRajPandey,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Prakash Badu",
-    position: "Position Placeholder",
-    image: {
-      url: PrakashBadu,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Prakash Sharma",
-    position: "Position Placeholder",
-    image: {
-      url: PrakashSharma,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Pralav Parajuli",
-    position: "Position Placeholder",
-    image: {
-      url: PralavParajuli,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Rahul Mahato",
-    position: "Position Placeholder",
-    image: {
-      url: RahulMahato,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Rakesh Dhami",
-    position: "Position Placeholder",
-    image: {
-      url: RakeshDhami,
-    },
-    description: "description Placeholder",
-  },
-  {
-    name: "Suman Yadav",
-    position: "Position Placeholder",
-    image: {
-      url: SumanYadav,
-    },
-    description: "description Placeholder",
-  },
-  {
     name: "Sushant Shrestha",
-    position: "Position Placeholder",
+    position: "Board Member",
     image: {
       url: SushantShrestha,
     },
-    description: "description Placeholder",
+    description: "Sunwal-4 , Nawalparasi West, Lumbini",
+  },
+  {
+    name: "Subash Sharma",
+    position: "Board Member",
+    image: {
+      url: null,
+    },
+    description: "Kumakh-6, Salyan, Karnali",
+  },
+  {
+    name: "Sonu Kumar Ray Yadav",
+    position: "Board Member",
+    image: {
+      url: SonuRajput,
+    },
+    description: "Mithila-2, Dhanusha, Madhesh",
+  },
+  {
+    name: "Rakesh Dhami",
+    position: "Board Member",
+    image: {
+      url: RakeshDhami,
+    },
+    description: "Malikarjun- 7 Darchula, Sudurpaschim",
+  },
+  {
+    name: "Pralav Parajuli",
+    position: "Board Member",
+    image: {
+      url: PralavParajuli,
+    },
+    description: "Itahari-7 Sunsari, Koshi",
+  },
+  {
+    name: "Prakash Sharma",
+    position: "Board Member",
+    image: {
+      url: PrakashSharma,
+    },
+    description: "Karnali",
+  },
+  {
+    name: "Prakash Badu",
+    position: "Board Member",
+    image: {
+      url: PrakashBadu,
+    },
+    description: "Melauli-2,Baitadi, Sudurpaschim",
+  },
+  {
+    name: "Prabesh Raj Pandey",
+    position: "Board Member",
+    image: {
+      url: PrabeshRajPandey,
+    },
+    description: "Badhaiyataal-8 Bardiya, Lumbini",
+  },
+  {
+    name: "Jeevan Bhusal",
+    position: "Board Member",
+    image: {
+      url: JiwanBhushal,
+    },
+    description: "Bihadi-4,Parbat,Gandaki",
+  },
+  {
+    name: "Govinda Awasthi",
+    position: "Board Member",
+    image: {
+      url: GovindaRajAwasth,
+    },
+    description: "Dhangadhi-13 Kailali, Sudurpaschim",
+  },
+  {
+    name: "Firoj Khadka",
+    position: "Board Member",
+    image: {
+      url: FirojKhadka,
+    },
+    description: "Pulchowk Lalitpur, Bagmati",
+  },
+  {
+    name: "Diwash Saraf",
+    position: "Board Member",
+    image: {
+      url: DiwashSarraf,
+    },
+    description: "Birgunj-15 Parsa, Madhesh",
+  },
+  {
+    name: "Dilli Adhikari",
+    position: "Board Member",
+    image: {
+      url: DilliAdhikari,
+    },
+    description: "Surkhet Karnali",
+  },
+  {
+    name: "Bishowjit KC",
+    position: "Board Member",
+    image: {
+      url: BishwajitKc,
+    },
+    description: "Tribeni-5, Rolpa, Lumbini",
+  },
+  {
+    name: "Bigyan Shrestha",
+    position: "Board Member",
+    image: {
+      url: BigyanShrestha,
+    },
+    description: "Panckhapan-6 Sankhuwasabha, Koshi",
+  },
+  {
+    name: "Ashmin Parajuli",
+    position: "Board Member",
+    image: {
+      url: null,
+    },
+    description: "Jadibuti -32 Kathmandu, Bagmati",
+  },
+  {
+    name: "Aron Poudel",
+    position: "Board Member",
+    image: {
+      url: null,
+    },
+    description: "Pokhara Kaski, Gandaki",
+  },
+  {
+    name: "Bijaya Raj Joshi",
+    position: "Immediate Past President (IPP)",
+    image: {
+      url: BijayaRajJosi,
+    },
+    description: "Jayaprithvi-3 Bajhang, Sudurpaschim",
   },
 ];
 
