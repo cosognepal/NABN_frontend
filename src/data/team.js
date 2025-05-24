@@ -19,6 +19,9 @@ import SonuRajput from "../assets/images/team/Sonu_Rajput.jpeg";
 import SudipPaudel from "../assets/images/team/Sudip_Paudel.jpeg";
 import SumanYadav from "../assets/images/team/Suman_yadav.jpeg";
 import SushantShrestha from "../assets/images/team/Sushant_Shrestha.jpeg";
+import AronPoudel from "../assets/images/team/AronPaudel.jpeg";
+import AshminParajuli from "../assets/images/team/Ashmin_parajuli.jpeg";
+import SubashSharma from "../assets/images/team/Subash_Sharma.jpeg";
 
 const data = [
   {
@@ -81,7 +84,7 @@ const data = [
     name: "Subash Sharma",
     position: "Board Member",
     image: {
-      url: null,
+      url: SubashSharma,
     },
     description: "Kumakh-6, Salyan, Karnali",
   },
@@ -193,7 +196,7 @@ const data = [
     name: "Ashmin Parajuli",
     position: "Board Member",
     image: {
-      url: null,
+      url: AshminParajuli,
     },
     description: "Jadibuti -32 Kathmandu, Bagmati",
   },
@@ -201,7 +204,7 @@ const data = [
     name: "Aron Poudel",
     position: "Board Member",
     image: {
-      url: null,
+      url: AronPoudel,
     },
     description: "Pokhara Kaski, Gandaki",
   },
