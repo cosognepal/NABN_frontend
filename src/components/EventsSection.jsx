@@ -1,16 +1,18 @@
 import "./EventsSection.css";
-import useFetch from "../hooks/useFetch.js";
+// import useFetch from "../hooks/useFetch.js";
 import { Link } from "react-router-dom";
 
-function EventsSection() {
-  const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/events?populate=*&sort=createdAt:desc&pagination[limit]=4");
+import Data from '../data/events'
 
-  // Handle loading and error states
-  if (loading) return <div className="events loading">Loading events...</div>;
-  if (error) return <div className="events error">Failed to load events</div>;
+function EventsSection() {
+  // const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/events?populate=*&sort=createdAt:desc&pagination[limit]=4");
+
+  // // Handle loading and error states
+  // if (loading) return <div className="events loading">Loading events...</div>;
+  // if (error) return <div className="events error">Failed to load events</div>;
 
   // Make sure data exists and has the right structure
-  const events = data?.data || [];
+  const events = Data.slice(-4);
 
   return (
     <div className="events">

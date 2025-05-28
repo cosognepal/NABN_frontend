@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import logo from './logo.png';
+import { useState } from "react";
+import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-import './Header.css';
+import "./Header.css";
 
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,24 +18,35 @@ function Header() {
           <span className="org-name">NABN</span>
         </Link>
       </div>
-      
+
       <div className="hamburger-menu" onClick={toggleMenu}>
-        <div className={`hamburger-icon ${mobileMenuOpen ? 'open' : ''}`}>
+        <div className={`hamburger-icon ${mobileMenuOpen ? "open" : ""}`}>
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
-      
-      <nav className={`nav-links ${mobileMenuOpen ? 'open' : ''}`}>
-        <ul>
-          <li><a href="/">HOME</a></li>
-          <li><a href="/AboutUs">ABOUT US</a></li>
-          <li><a href="/events">EVENTS</a></li>
-          <li><a href="/team">TEAM</a></li>
-          <li><a href="/contact">CONTACT</a></li>
-          <li><a href="https://www.facebook.com/nabn.nepal/">CONNECT</a></li>
 
+      <nav className={`nav-links ${mobileMenuOpen ? "open" : ""}`}>
+        <ul>
+          <li>
+            <Link to="/">HOME</Link>
+          </li>
+          <li>
+            <Link to="/about">ABOUT US</Link>
+          </li>
+          <li>
+            <Link to="/events">EVENTS</Link>
+          </li>
+          <li>
+            <Link to="/team">TEAM</Link>
+          </li>
+          <li>
+            <Link to="/contact">CONTACT</Link>
+          </li>
+          <li>
+            <Link to="https://www.facebook.com/nabn.nepal/">CONNECT</Link>
+          </li>
         </ul>
       </nav>
     </header>

@@ -1,6 +1,6 @@
 function Donate() {
     return(
-        <p> currently blank </p>
+        <p> Coming soon... </p>
     )
 }
 
