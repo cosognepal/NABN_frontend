@@ -68,6 +68,7 @@ import event67 from "../assets/images/events/event67_4c45068ef5.png";
 import event68 from "../assets/images/events/event68_4c2a1f086c.png";
 import event69 from "../assets/images/events/event69_8c22be18a0.png";
 import event70 from "../assets/images/events/event70_9ecd18d170.png";
+import event71 from "../assets/images/events/event71.jpeg";
 
 const data = [
   {
@@ -771,6 +772,16 @@ const data = [
       "NABN, in collaboration with the National Adolescent Girls Network, prepared and submitted an appeal letter to the Honorable Speaker of the Federal Parliament, highlighting the need to address gaps in laws and policies concerning children's and adolescents' rights.",
     image: {
       url: event70,
+    },
+  },
+  {
+    id: "71",
+    date: "2025-02-01",
+    title: "Completion of NABN Nepal website",
+    description:
+      "NABN, in collaboration with the National Adolescent Girls Network, prepared and submitted an appeal letter to the Honorable Speaker of the Federal Parliament, highlighting the need to address gaps in laws and policies concerning children's and adolescents' rights.",
+    image: {
+      url: event71,
     },
   },
 ];
