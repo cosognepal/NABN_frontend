@@ -5,7 +5,7 @@ import Icon3 from "../assets/icons/third.png";
 
 const data = {
   heroSection: {
-    title: "National Adolescent Boys Network Nepal",
+    title: "National Adolescent Boys Network Nepall",
     subtitle: "Empowering Nepal's adolescent",
     CTAbutton: "Get Involved",
     CTAbuttonlink: "https://www.facebook.com/nabn.nepal/",
