@@ -1,5 +1,5 @@
 
-# 🌐 NABN Website Editing Guide
+# 🌐 NAGN Website Editing Guide
 
 Welcome! This guide helps you update your website by modifying **text and images** using GitHub's online editor.
 
@@ -110,10 +110,10 @@ You can safely change:
 Example:
 ```js
 heroSection: {
-  title: "National Adolescent Boys Network Nepal",
+  title: "National Adolescent Girls' Network Nepal",
   subtitle: "Empowering Nepal's youth",
   CTAbutton: "Get Involved",
-  CTAbuttonlink: "https://www.facebook.com/nabn.nepal/",
+  CTAbuttonlink: "https://www.facebook.com/kishorisanjal",
 }
 ```
 
