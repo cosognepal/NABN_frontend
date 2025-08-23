@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section footer-about">
-            <h3>NABN</h3>
+            <h3>NAGN Nepal</h3>
             <p>
               Empowering Nepal&apos;s youth.
             </p>
@@ -54,7 +54,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} National Adolescent Boys Network Nepal. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} National Adolescent Girls&apos; Network Nepal. All rights reserved.</p>
         </div>
       </div>
     </footer>
