@@ -65,7 +65,7 @@ const data = [
     description: "Dudhauli -4 ,Sindhuli, Bagmati",
   },
   {
-    name: "Nirijana Bhattarai",
+    name: "Nirijana Bhatta",
     position: "Focal Person",
     image: {
       url: NirijanaBhattarai,
