@@ -70,7 +70,7 @@ const data = [
     image: {
       url: NirijanaBhattarai,
     },
-    description: "description Placeholder",
+    description: "Kathmandu, Bagmati",
   },
   {
     name: "Sushant Shrestha",
