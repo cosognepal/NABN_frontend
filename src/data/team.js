@@ -241,44 +241,44 @@ const data = [
 },
 
 
-  // New members without title
+  // New members with title
 
 
   {
     name: "Anuska Neupane",
+    position: "President",
     image: {
       url: AnuskaNeupane,
     },
     description:"Belkotgadhi-6, Nuwakot, Bagmati"
-
   },
   {
     name: "Bishakha Rajyalaxmi",
+    position: "Vice-President",
     image: {
       url: BishakhaRajyalaxmi,
     },
-    description:"Bardiya , Lumbini"
-
+    description:"Bardiya, Lumbini"
   },
   {
     name: "Kritika Dhital",
+    position: "Secretary",
     image: {
       url: KritikaDhital,
     },
-    description:"Bara, Madesh"
-
-
+    description:"Bara, Madhesh"
   },
   {
     name: "Surakshya Gautam",
+    position: "Vice-Secretary",
     image: {
       url: SurakshyaGautam,
     },
-    description:"Baglung,Gandaki"
-
+    description:"Baglung, Gandaki"
   },
   {
     name: "Samira Gautam",
+    position: "Treasurer",
     image: {
       url: SamiraGautam,
     },
@@ -286,29 +286,31 @@ const data = [
   },
   {
     name: "Santa Tiwari",
+    position: "Board Member",
     image: {
       url: SantaTiwari,
     },
-    description:"Surkhet , Karnali"
+    description:"Surkhet, Karnali"
   },
   {
     name: "Sujata Poudel",
+    position: "Board Member",
     image: {
       url: SujataPoudel,
     },
-    description:"Bheerkot-5, syangja ,Gandaki"
-
+    description:"Bheerkot-5, Syangja, Gandaki"
   },
   {
     name: "Swostika Sharma Pathak",
+    position: "Board Member",
     image: {
       url: SwostikaSharmaPathak,
     },
-    description:"Chitwan, bagmati"
-
+    description:"Chitwan, Bagmati"
   },
   {
     name: "Sapana Malasi",
+    position: "Board Member",
     image: {
       url: SapanaMalasi,
     },
@@ -317,13 +319,15 @@ const data = [
   },
   {
     name: "Shristi Aryal",
+    position: "Board Member",
     image: {
       url: ShristiAryal,
     },
-    description:"apilvastu, Lumbini"
+    description:"Kapilvastu, Lumbini"
   },
   {
     name: "Laxmi Tamang",
+    position: "Board Member",
     image: {
       url: LaxmiTamang,
     },
@@ -331,6 +335,7 @@ const data = [
   },
   {
     name: "Dawaleki Sherpa",
+    position: "Board Member",
     image: {
       url: DawalekiSherpa,
     },
@@ -339,6 +344,7 @@ const data = [
   },
   {
     name: "Anjali Kumari Kushwaha",
+    position: "Board Member",
     image: {
       url: AnjaliKumariKushwaha,
     },
@@ -346,6 +352,7 @@ const data = [
   },
   {
     name: "Khusi Gupta",
+    position: "Board Member",
     image: {
       url: KhusiGupta,
     },
@@ -353,6 +360,7 @@ const data = [
   },
   {
     name: "Bimala Joshi",
+    position: "Board Member",
     image: {
       url: BimalaJoshi,
     },
@@ -361,6 +369,7 @@ const data = [
   },
   {
     name: "Saeen Pathak",
+    position: "Board Member",
     image: {
       url: SaeenPathak,
     },
@@ -369,6 +378,7 @@ const data = [
   },
   {
     name: "Abegail Pariyar",
+    position: "Board Member",
     image: {
       url: AbegailPariyar,
     },
@@ -376,6 +386,7 @@ const data = [
   },
   {
     name: "Raj Nandani Chaudhary",
+    position: "Board Member",
     image: {
       url: RajNandaniChaudhary,
     },
@@ -384,6 +395,7 @@ const data = [
   },
   {
     name: "Binita Khanal",
+    position: "Board Member",
     image: {
       url: BinitaKhanal,
     },
@@ -392,6 +404,7 @@ const data = [
   },
   {
     name: "Nirijana Bhattarai",
+    position: "Board Member",
     image: {
       url: NirijanaBhattarai,
     },
@@ -400,12 +413,14 @@ const data = [
 
   {
     name: "Jasmine Acharya",
+    position: "Board Member",
     
     description:"Kaski Gandaki "
   },
 
   {
     name: "karuna bhandari",
+    position: "Board Member",
     
     description:"Dang , Lumbini",
   },
