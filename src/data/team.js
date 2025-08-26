@@ -231,7 +231,14 @@ const data = [
     },
     description: "Pokhara Kaski, Gandaki",
   },
-
+  {
+  name: "Bijaya Raj Joshi",
+  position: "Immediate Past President (IPP)",
+  image: {
+    url: BijayaRajJosi,
+  },
+  description: "Jayaprithvi-3 Bajhang, Sudurpaschim",
+},
 
 
   // New members without title
@@ -365,6 +372,7 @@ const data = [
     image: {
       url: AbegailPariyar,
     },
+  
   },
   {
     name: "Raj Nandani Chaudhary",
