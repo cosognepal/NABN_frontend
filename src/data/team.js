@@ -23,6 +23,29 @@ import AronPoudel from "../assets/images/team/AronPaudel.jpeg";
 import AshminParajuli from "../assets/images/team/Ashmin_parajuli.jpeg";
 import SubashSharma from "../assets/images/team/Subash_Sharma.jpeg";
 
+// New Images
+
+import AnuskaNeupane from "../assets/images/team/1 . Anuska Neupane_.webp";
+import BishakhaRajyalaxmi from "../assets/images/team/2. Bishakha Rajyalaxmi_.jpg";
+import KritikaDhital from "../assets/images/team/3. Kritika Dhital_.jpg";
+import SurakshyaGautam from "../assets/images/team/4. Surakshya Gautam_.jpg";
+import SamiraGautam from "../assets/images/team/5 . Samira Gautam_.jpg";
+import SantaTiwari from "../assets/images/team/6. Santa Tiwari_.jpg";
+import SujataPoudel from "../assets/images/team/7. Sujata Poudel_.jpg";
+import SwostikaSharmaPathak from "../assets/images/team/8. Swostika Sharma Pathak_.jpg";
+import SapanaMalasi from "../assets/images/team/9.Sapana Malasi_.jpg";
+import ShristiAryal from "../assets/images/team/10. Shristi Aryal_.jpg";
+import LaxmiTamang from "../assets/images/team/11. Laxmi  Tamang_.jpg";
+import DawalekiSherpa from "../assets/images/team/12. Dawaleki Sherpa_.jpg";
+import AnjaliKumariKushwaha from "../assets/images/team/13.Anjali Kumari Kushwaha_.jpg";
+import KhusiGupta from "../assets/images/team/14. Khusi Gupta_.jpg";
+import BimalaJoshi from "../assets/images/team/15. Bimala Joshi_.jpg";
+import SaeenPathak from "../assets/images/team/16. saeen Pathak_.jpg";
+import AbegailPariyar from "../assets/images/team/17. Abegail Pariyar.jpg";
+import RajNandaniChaudhary from "../assets/images/team/18. Raj Nandani Chaudhary_.jpg";
+import BinitaKhanal from "../assets/images/team/19. Binita Khanal_.jpg";
+
+
 const data = [
   {
     name: "Ghanshyam Bishwakarma",
@@ -208,14 +231,183 @@ const data = [
     },
     description: "Pokhara Kaski, Gandaki",
   },
+
+
+
+  // New members without title
+
+
   {
-    name: "Bijaya Raj Joshi",
-    position: "Immediate Past President (IPP)",
+    name: "Anuska Neupane",
     image: {
-      url: BijayaRajJosi,
+      url: AnuskaNeupane,
     },
-    description: "Jayaprithvi-3 Bajhang, Sudurpaschim",
+    description:"Belkotgadhi-6, Nuwakot, Bagmati"
+
   },
+  {
+    name: "Bishakha Rajyalaxmi",
+    image: {
+      url: BishakhaRajyalaxmi,
+    },
+    description:"Bardiya , Lumbini"
+
+  },
+  {
+    name: "Kritika Dhital",
+    image: {
+      url: KritikaDhital,
+    },
+    description:"Bara, Madesh"
+
+
+  },
+  {
+    name: "Surakshya Gautam",
+    image: {
+      url: SurakshyaGautam,
+    },
+    description:"Baglung,Gandaki"
+
+  },
+  {
+    name: "Samira Gautam",
+    image: {
+      url: SamiraGautam,
+    },
+    description:"Jajarkot, Karnali"
+  },
+  {
+    name: "Santa Tiwari",
+    image: {
+      url: SantaTiwari,
+    },
+    description:"Surkhet , Karnali"
+  },
+  {
+    name: "Sujata Poudel",
+    image: {
+      url: SujataPoudel,
+    },
+    description:"Bheerkot-5, syangja ,Gandaki"
+
+  },
+  {
+    name: "Swostika Sharma Pathak",
+    image: {
+      url: SwostikaSharmaPathak,
+    },
+    description:"Chitwan, bagmati"
+
+  },
+  {
+    name: "Sapana Malasi",
+    image: {
+      url: SapanaMalasi,
+    },
+    description:"Doti, Sudurpaschim"
+
+  },
+  {
+    name: "Shristi Aryal",
+    image: {
+      url: ShristiAryal,
+    },
+    description:"apilvastu, Lumbini"
+  },
+  {
+    name: "Laxmi Tamang",
+    image: {
+      url: LaxmiTamang,
+    },
+    description:"Taplejung , koshi"
+  },
+  {
+    name: "Dawaleki Sherpa",
+    image: {
+      url: DawalekiSherpa,
+    },
+    description:"Dolakha , bagmati"
+
+  },
+  {
+    name: "Anjali Kumari Kushwaha",
+    image: {
+      url: AnjaliKumariKushwaha,
+    },
+    description:"Mahottari , madesh"
+  },
+  {
+    name: "Khusi Gupta",
+    image: {
+      url: KhusiGupta,
+    },
+    description:"Morang , koshi" 
+  },
+  {
+    name: "Bimala Joshi",
+    image: {
+      url: BimalaJoshi,
+    },
+    description:"Kailali , sudurpaschim" 
+
+  },
+  {
+    name: "Saeen Pathak",
+    image: {
+      url: SaeenPathak,
+    },
+    description:"kanchanpur , Sudurpaschim"
+
+  },
+  {
+    name: "Abegail Pariyar",
+    image: {
+      url: AbegailPariyar,
+    },
+  },
+  {
+    name: "Raj Nandani Chaudhary",
+    image: {
+      url: RajNandaniChaudhary,
+    },
+    description:"Saptari , madesh" 
+
+  },
+  {
+    name: "Binita Khanal",
+    image: {
+      url: BinitaKhanal,
+    },
+    description:"Lumbini"
+
+  },
+  {
+    name: "Nirijana Bhattarai",
+    image: {
+      url: NirijanaBhattarai,
+    },
+    description:"Kathmandu, Bagmati"
+  },
+
+  {
+    name: "Jasmine Acharya",
+    
+    description:"Kaski Gandaki "
+  },
+
+  {
+    name: "karuna bhandari",
+    
+    description:"Dang , Lumbini",
+  },
+
+
 ];
 
 export default data;
+
+
+
+
+  
