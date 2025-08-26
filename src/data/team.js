@@ -8,7 +8,6 @@ import FirojKhadka from "../assets/images/team/Firoj_khadka.jpeg";
 import GhanashyamBishwokarma from "../assets/images/team/Ghanashyam_Bishwokarma.jpeg";
 import GovindaRajAwasth from "../assets/images/team/Govinda_raj_awasth.jpeg";
 import JiwanBhushal from "../assets/images/team/Jiwan_Bhushal.jpeg";
-import NirijanaBhattarai from "../assets/images/team/Nirijana_Bhattarai.jpeg";
 import PrabeshRajPandey from "../assets/images/team/Prabesh_raj_pandey.jpeg";
 import PrakashBadu from "../assets/images/team/Prakash_badu.jpeg";
 import PrakashSharma from "../assets/images/team/Prakash_sharma.jpeg";
@@ -44,6 +43,7 @@ import SaeenPathak from "../assets/images/team/16. saeen Pathak_.jpg";
 import AbegailPariyar from "../assets/images/team/17. Abegail Pariyar.jpg";
 import RajNandaniChaudhary from "../assets/images/team/18. Raj Nandani Chaudhary_.jpg";
 import BinitaKhanal from "../assets/images/team/19. Binita Khanal_.jpg";
+import NirijanaBhattarai from "../assets/images/team/20 . Nirijana_Bhattarai.jpeg";
 
 
 const data = [
