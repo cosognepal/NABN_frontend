@@ -43,7 +43,7 @@ import SaeenPathak from "../assets/images/team/16. saeen Pathak_.jpg";
 import AbegailPariyar from "../assets/images/team/17. Abegail Pariyar.jpg";
 import RajNandaniChaudhary from "../assets/images/team/18. Raj Nandani Chaudhary_.jpg";
 import BinitaKhanal from "../assets/images/team/19. Binita Khanal_.jpg";
-import NirijanaBhattarai from "../assets/images/team/20 . Nirijana_Bhattarai.jpeg";
+import NirijanaBhattarai from "../assets/images/team/20.Nirijana_Bhattarai.jpeg";
 
 
 const data = [
@@ -87,14 +87,7 @@ const data = [
     },
     description: "Dudhauli -4 ,Sindhuli, Bagmati",
   },
-  {
-    name: "Nirijana Bhatta",
-    position: "Focal Person",
-    image: {
-      url: NirijanaBhattarai,
-    },
-    description: "Kathmandu, Bagmati",
-  },
+  
   {
     name: "Sushant Shrestha",
     position: "Board Member",
@@ -430,7 +423,3 @@ const data = [
 
 export default data;
 
-
-
-
-  
