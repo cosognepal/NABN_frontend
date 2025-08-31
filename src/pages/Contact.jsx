@@ -24,7 +24,7 @@ function Contact() {
         e.preventDefault();
         const { name, email, subject, message } = formData;
         
-        const mailtoLink = `mailto:nabn.nepal@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+        const mailtoLink = `mailto:nationaladolescentgirlnetwork@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
             `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
         )}`;
         

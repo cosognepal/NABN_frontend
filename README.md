@@ -155,7 +155,7 @@ No editing needed unless you want to change the **email address**. To do so:
 1. Open `Contact.jsx` in `src/pages/`
 2. Find:
 ```js
-const mailtoLink = \`mailto:nabn.nepal@gmail.com?...`
+const mailtoLink = \`mailto:nationaladolescentgirlnetwork@gmail.com?...`
 ```
 3. Replace the email if needed.
 
