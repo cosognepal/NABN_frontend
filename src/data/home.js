@@ -6,7 +6,7 @@ import Icon3 from "../assets/icons/third.png";
 const data = {
   heroSection: {
     title: "National Adolescent Girls' Network Nepal",
-    subtitle: "Empowering Nepal's adolescent",
+    subtitle: "Empowering Nepal's Adolescent Girls",
     CTAbutton: "Get Involved",
     CTAbuttonlink: "https://www.facebook.com/kishorisanjal",
     image: {
@@ -38,7 +38,7 @@ const data = {
   },
   ctaSection: {
     CTAtitle: "Ready to Make a Difference?",
-    CTAsubtitle: "Join us in empowering Nepal's Adolescent",
+    CTAsubtitle: "Join us in empowering Nepal's Adolescent Girls",
     CTAbutton: "Learn More",
     CTAbuttonLink: "/about",
   },
