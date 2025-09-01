@@ -11,7 +11,7 @@ function Team() {
   // const { loading, error, data } = useFetch("https://charming-trust-6afb776746.strapiapp.com/api/teammembers?populate=*");
 
   useEffect(() => {
-    document.title = "Our Team | National Adolescent Boys Network Nepal";
+    document.title = "Our Team | National Adolescent Girls Network Nepal";
   }, []);
 
   // if (loading) return (
