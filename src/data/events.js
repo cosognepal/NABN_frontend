@@ -20,6 +20,29 @@ import Event19 from "../assets/images/events/Event19.jpg";
 import Event20 from "../assets/images/events/Event20.jpg";
 import Event21 from "../assets/images/events/Event21.jpg";
 import Event22 from "../assets/images/events/Event22.jpg";
+import Event23 from "../assets/images/events/Event23.jpg";
+import Event24 from "../assets/images/events/Event24.jpg";
+import Event25 from "../assets/images/events/Event25.png";
+import Event26 from "../assets/images/events/Event26.jpg";
+import Event27 from "../assets/images/events/Event27.jpg";
+import Event28 from "../assets/images/events/Event28.jpg";
+import Event29 from "../assets/images/events/Event29.jpg";
+import Event30 from "../assets/images/events/Event30.jpg";
+import Event31 from "../assets/images/events/Event31.jpg";
+import Event32 from "../assets/images/events/Event32.jpg";
+import Event33 from "../assets/images/events/Event33.jpg";
+import Event34 from "../assets/images/events/Event34.jpg";
+import Event35 from "../assets/images/events/Event35.jpg";
+import Event36 from "../assets/images/events/Event36.jpg";
+import Event37 from "../assets/images/events/Event37.jpg";
+import Event38 from "../assets/images/events/Event38.jpg";
+import Event39 from "../assets/images/events/Event39.jpg";
+import Event40 from "../assets/images/events/Event40.jpg";
+import Event41 from "../assets/images/events/Event41.jpg";
+import Event42 from "../assets/images/events/Event42.jpg";
+import Event43 from "../assets/images/events/Event43.jpg";
+import Event44 from "../assets/images/events/Event44.jpg";
+
 
 const data = [
   {
@@ -51,7 +74,7 @@ const data = [
   },
   {
     id: "4",
-    date: "2024-02-1",
+    date: "2024-02-01",
     title: "Drug Abuse awareness program",
     description: "A drug abuse awareness program was successfully conducted at Bhanu Secondary School, located in Khajura Rural Municipality, Banke District. The program was organized by the Lumbini Province-level Adolescent Girls' Network, in coordination with CWIN Nepal and the National Adolescent Girls' Network.",
     image: {
