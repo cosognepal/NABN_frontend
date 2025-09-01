@@ -18,7 +18,7 @@ import AbegailPariyar from "../assets/images/team/17. Abegail Pariyar.jpg";
 import RajNandaniChaudhary from "../assets/images/team/18. Raj Nandani Chaudhary_.jpg";
 import BinitaKhanal from "../assets/images/team/19. Binita Khanal_.jpg";
 import NirijanaBhattarai from "../assets/images/team/20.Nirijana_Bhattarai.jpeg";
-
+import KarunaBhandari from "../assets/images/team/karuna bhandari.jpeg";
 
 const data = [
   {
@@ -27,7 +27,7 @@ const data = [
     image: {
       url: AnuskaNeupane,
     },
-    description:"Belkotgadhi-6, Nuwakot, Bagmati"
+    description: "Belkotgadhi-6, Nuwakot, Bagmati",
   },
   {
     name: "Bishakha Rajyalaxmi",
@@ -35,7 +35,7 @@ const data = [
     image: {
       url: BishakhaRajyalaxmi,
     },
-    description:"Bardiya, Lumbini"
+    description: "Bardiya, Lumbini",
   },
   {
     name: "Kritika Dhital",
@@ -43,7 +43,7 @@ const data = [
     image: {
       url: KritikaDhital,
     },
-    description:"Bara, Madhesh"
+    description: "Bara, Madhesh",
   },
   {
     name: "Surakshya Gautam",
@@ -51,7 +51,7 @@ const data = [
     image: {
       url: SurakshyaGautam,
     },
-    description:"Baglung, Gandaki"
+    description: "Baglung, Gandaki",
   },
   {
     name: "Samira Gautam",
@@ -59,125 +59,7 @@ const data = [
     image: {
       url: SamiraGautam,
     },
-    description:"Jajarkot, Karnali"
-  },
-  {
-    name: "Santa Tiwari",
-    position: "Board Member",
-    image: {
-      url: SantaTiwari,
-    },
-    description:"Surkhet, Karnali"
-  },
-  {
-    name: "Sujata Poudel",
-    position: "Board Member",
-    image: {
-      url: SujataPoudel,
-    },
-    description:"Bheerkot-5, Syangja, Gandaki"
-  },
-  {
-    name: "Swostika Sharma Pathak",
-    position: "Board Member",
-    image: {
-      url: SwostikaSharmaPathak,
-    },
-    description:"Chitwan, Bagmati"
-  },
-  {
-    name: "Sapana Malasi",
-    position: "Board Member",
-    image: {
-      url: SapanaMalasi,
-    },
-    description:"Doti, Sudurpaschim"
-
-  },
-  {
-    name: "Shristi Aryal",
-    position: "Board Member",
-    image: {
-      url: ShristiAryal,
-    },
-    description:"Kapilvastu, Lumbini"
-  },
-  {
-    name: "Laxmi Tamang",
-    position: "Board Member",
-    image: {
-      url: LaxmiTamang,
-    },
-    description:"Taplejung , koshi"
-  },
-  {
-    name: "Dawaleki Sherpa",
-    position: "Board Member",
-    image: {
-      url: DawalekiSherpa,
-    },
-    description:"Dolakha , bagmati"
-
-  },
-  {
-    name: "Anjali Kumari Kushwaha",
-    position: "Board Member",
-    image: {
-      url: AnjaliKumariKushwaha,
-    },
-    description:"Mahottari , madesh"
-  },
-  {
-    name: "Khusi Gupta",
-    position: "Board Member",
-    image: {
-      url: KhusiGupta,
-    },
-    description:"Morang , koshi" 
-  },
-  {
-    name: "Bimala Joshi",
-    position: "Board Member",
-    image: {
-      url: BimalaJoshi,
-    },
-    description:"Kailali , sudurpaschim" 
-
-  },
-  {
-    name: "Saeen Pathak",
-    position: "Board Member",
-    image: {
-      url: SaeenPathak,
-    },
-    description:"kanchanpur , Sudurpaschim"
-
-  },
-  {
-    name: "Abegail Pariyar",
-    position: "Board Member",
-    image: {
-      url: AbegailPariyar,
-    },
-  
-  },
-  {
-    name: "Raj Nandani Chaudhary",
-    position: "Board Member",
-    image: {
-      url: RajNandaniChaudhary,
-    },
-    description:"Saptari , madesh" 
-
-  },
-  {
-    name: "Binita Khanal",
-    position: "Board Member",
-    image: {
-      url: BinitaKhanal,
-    },
-    description:"Lumbini"
-
+    description: "Jajarkot, Karnali",
   },
   {
     name: "Nirijana Bhatta",
@@ -185,23 +67,135 @@ const data = [
     image: {
       url: NirijanaBhattarai,
     },
-    description:"Kathmandu, Bagmati"
+    description: "Kathmandu, Bagmati",
+  },
+  {
+    name: "Santa Tiwari",
+    position: "Board Member",
+    image: {
+      url: SantaTiwari,
+    },
+    description: "Surkhet, Karnali",
+  },
+  {
+    name: "Sujata Poudel",
+    position: "Board Member",
+    image: {
+      url: SujataPoudel,
+    },
+    description: "Bheerkot-5, Syangja, Gandaki",
+  },
+  {
+    name: "Swostika Sharma Pathak",
+    position: "Board Member",
+    image: {
+      url: SwostikaSharmaPathak,
+    },
+    description: "Chitwan, Bagmati",
+  },
+  {
+    name: "Sapana Malasi",
+    position: "Board Member",
+    image: {
+      url: SapanaMalasi,
+    },
+    description: "Doti, Sudurpaschim",
+  },
+  {
+    name: "Shristi Aryal",
+    position: "Board Member",
+    image: {
+      url: ShristiAryal,
+    },
+    description: "Kapilvastu, Lumbini",
+  },
+  {
+    name: "Laxmi Tamang",
+    position: "Board Member",
+    image: {
+      url: LaxmiTamang,
+    },
+    description: "Taplejung , koshi",
+  },
+  {
+    name: "Dawaleki Sherpa",
+    position: "Board Member",
+    image: {
+      url: DawalekiSherpa,
+    },
+    description: "Dolakha , bagmati",
+  },
+  {
+    name: "Anjali Kumari Kushwaha",
+    position: "Board Member",
+    image: {
+      url: AnjaliKumariKushwaha,
+    },
+    description: "Mahottari , madesh",
+  },
+  {
+    name: "Khusi Gupta",
+    position: "Board Member",
+    image: {
+      url: KhusiGupta,
+    },
+    description: "Morang , koshi",
+  },
+  {
+    name: "Bimala Joshi",
+    position: "Board Member",
+    image: {
+      url: BimalaJoshi,
+    },
+    description: "Kailali , sudurpaschim",
+  },
+  {
+    name: "Saeen Pathak",
+    position: "Board Member",
+    image: {
+      url: SaeenPathak,
+    },
+    description: "kanchanpur , Sudurpaschim",
+  },
+  {
+    name: "Abegail Pariyar",
+    position: "Board Member",
+    image: {
+      url: AbegailPariyar,
+    },
+  },
+  {
+    name: "Raj Nandani Chaudhary",
+    position: "Board Member",
+    image: {
+      url: RajNandaniChaudhary,
+    },
+    description: "Saptari , madesh",
+  },
+  {
+    name: "Binita Khanal",
+    position: "Board Member",
+    image: {
+      url: BinitaKhanal,
+    },
+    description: "Lumbini",
   },
 
   {
     name: "Jasmine Acharya",
     position: "Board Member",
-    
-    description:"Kaski Gandaki "
+
+    description: "Kaski Gandaki ",
   },
 
   {
     name: "karuna bhandari",
     position: "Board Member",
-    
-    description:"Dang , Lumbini",
+    image: {
+      url: KarunaBhandari,
+    },
+    description: "Dang , Lumbini",
   },
-  
 ];
 
 export default data;
