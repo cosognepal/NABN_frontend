@@ -19,6 +19,7 @@ import RajNandaniChaudhary from "../assets/images/team/18. Raj Nandani Chaudhary
 import BinitaKhanal from "../assets/images/team/19. Binita Khanal_.jpg";
 import NirijanaBhattarai from "../assets/images/team/20.Nirijana_Bhattarai.jpeg";
 import KarunaBhandari from "../assets/images/team/karuna bhandari.jpeg";
+import KripaKafle from "../assets/images/team/Kripa Kafle.jpeg";
 
 const data = [
   {
@@ -195,6 +196,15 @@ const data = [
       url: KarunaBhandari,
     },
     description: "Dang , Lumbini",
+  },
+
+  {
+    name: "Kripa Kafle",
+    position: "IPP",
+    image: {
+      url: KripaKafle,
+    },
+    description: "Sindhuli , Bagmati",
   },
 ];
 
