@@ -11,9 +11,6 @@ const data = {
         "National Adolescent Girls Network Nepal (NAGN)",
         "Established: 11 October 2012",
         "The National Adolescent Girls Network Nepal (NAGN) is a leading national platform committed to empowering adolescent girls, advocating for their rights, and promoting gender equality. NAGN envisions a Nepal where every adolescent girl is informed, confident, and capable of driving social change.",
-        `
-NAGN is not just a network—it is a movement.
-It is a force for equality, empowerment, and opportunity, ensuring every adolescent girl in Nepal can live with dignity, make informed choices, and contribute meaningfully to society.`,
       ],
     },
     {
@@ -55,6 +52,13 @@ It is a force for equality, empowerment, and opportunity, ensuring every adolesc
         "- Over the past year, NAGN has reached thousands of adolescent girls nationwide through workshops, trainings, and awareness campaigns",
         "- Successfully reduced child marriages in target communities through advocacy and local engagement.",
         "- Trained adolescent girls have become youth leaders and advocates, actively participating in policy discussions, community development, and social campaigns.",
+      ],
+    },
+    {
+      title: "",
+      descriptions: [
+        "NAGN is not just a network—it is a movement.",
+        "It is a force for equality, empowerment, and opportunity, ensuring every adolescent girl in Nepal can live with dignity, make informed choices, and contribute meaningfully to society.",
       ],
     },
   ],
