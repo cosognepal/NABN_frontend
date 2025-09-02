@@ -1,4 +1,4 @@
-import HeroImage from "../assets/nabn_hero.jpg";
+import HeroImage from "../assets/nagn_hero.jpeg";
 import Icon1 from "../assets/icons/first.png";
 import Icon2 from "../assets/icons/second.png";
 import Icon3 from "../assets/icons/third.png";
