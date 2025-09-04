@@ -23,6 +23,12 @@ function Mission() {
   const icon1Url = missionSection?.icon1?.url || null;
   const icon2Url = missionSection?.icon2?.url || null;
   const icon3Url = missionSection?.icon3?.url || null;
+  const icon4Url = missionSection?.icon4?.url || null;
+  const icon5Url = missionSection?.icon5?.url || null;
+  const icon6Url = missionSection?.icon6?.url || null;
+  const icon7Url = missionSection?.icon7?.url || null;
+  const icon8Url = missionSection?.icon8?.url || null;
+  const icon9Url = missionSection?.icon9?.url || null;
 
   return(
     <section className="mission-section">
@@ -73,6 +79,102 @@ function Mission() {
             </h3>
             <p className="mission-description">
               {missionSection?.mission3subtitle || "Empowering adolescents across all seven provinces to speak up for change"}
+            </p>
+          </div>
+
+          <div className="mission-card">
+            {icon4Url && (
+              <img
+                src={icon4Url}
+                alt={missionSection?.mission4 || "Adolescent Participation"}
+                className="mission-icon"
+              />
+            )}
+            <h3 className="mission-title">
+              {missionSection?.mission4 || "Adolescent Participation"}
+            </h3>
+            <p className="mission-description">
+              {missionSection?.mission4subtitle || "Empowering adolescents to raise their voices, lead movements, and shape the future of Nepal."}
+            </p>
+          </div>
+
+          <div className="mission-card">
+            {icon5Url && (
+              <img
+                src={icon5Url}
+                alt={missionSection?.mission5 || "Child Marriage Prevention"}
+                className="mission-icon"
+              />
+            )}
+            <h3 className="mission-title">
+              {missionSection?.mission5 || "Child Marriage Prevention"}
+            </h3>
+            <p className="mission-description">
+              {missionSection?.mission5subtitle || "Ending child marriage through awareness, advocacy, and action for a brighter tomorrow."}
+            </p>
+          </div>
+
+          <div className="mission-card">
+            {icon6Url && (
+              <img
+                src={icon6Url}
+                alt={missionSection?.mission6 || "Breaking Barriers"}
+                className="mission-icon"
+              />
+            )}
+            <h3 className="mission-title">
+              {missionSection?.mission6 || "Breaking Barriers"}
+            </h3>
+            <p className="mission-description">
+              {missionSection?.mission6subtitle || "Reaching remote villages, ending silence, and empowering adolescents to speak out for change."}
+            </p>
+          </div>
+
+          <div className="mission-card">
+            {icon7Url && (
+              <img
+                src={icon7Url}
+                alt={missionSection?.mission7 || "Equal Opportunities"}
+                className="mission-icon"
+              />
+            )}
+            <h3 className="mission-title">
+              {missionSection?.mission7 || "Equal Opportunities"}
+            </h3>
+            <p className="mission-description">
+              {missionSection?.mission7subtitle || "Ensuring equal access to education, resources, and rights for every adolescent, everywhere."}
+            </p>
+          </div>
+
+          <div className="mission-card">
+            {icon8Url && (
+              <img
+                src={icon8Url}
+                alt={missionSection?.mission8 || "From Local to National"}
+                className="mission-icon"
+              />
+            )}
+            <h3 className="mission-title">
+              {missionSection?.mission8 || "From Local to National"}
+            </h3>
+            <p className="mission-description">
+              {missionSection?.mission8subtitle || "Strengthening adolescents’ voices from grassroots to policy level for lasting impact."}
+            </p>
+          </div>
+
+          <div className="mission-card">
+            {icon9Url && (
+              <img
+                src={icon9Url}
+                alt={missionSection?.mission9 || "Leadership Development"}
+                className="mission-icon"
+              />
+            )}
+            <h3 className="mission-title">
+              {missionSection?.mission9 || "Leadership Development"}
+            </h3>
+            <p className="mission-description">
+              {missionSection?.mission9subtitle || "Building strong, confident, and skilled adolescent leaders for social change."}
             </p>
           </div>
         </div>
