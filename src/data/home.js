@@ -1,4 +1,4 @@
-import HeroImage from "../assets/nabn_hero.jpg";
+import HeroImage from "../assets/nagn_hero.jpeg";
 import Icon1 from "../assets/icons/1.png";
 import Icon2 from "../assets/icons/2.png";
 import Icon3 from "../assets/icons/3.png";
@@ -8,10 +8,10 @@ import Icon6 from "../assets/icons/6.png";
 
 const data = {
   heroSection: {
-    title: "National Adolescent Girl Network Nepal",
-    subtitle: "Empowering Nepal's adolescent",
+    title: "National Adolescent Girls' Network Nepal",
+    subtitle: "Empowering Nepal's Adolescent Girls",
     CTAbutton: "Get Involved",
-    CTAbuttonlink: "https://www.facebook.com/nabn.nepal/",
+    CTAbuttonlink: "https://www.facebook.com/kishorisanjal",
     image: {
       url: HeroImage,
     },
@@ -60,7 +60,7 @@ const data = {
   },
   ctaSection: {
     CTAtitle: "Ready to Make a Difference?",
-    CTAsubtitle: "Join us in empowering Nepal's Adolescent",
+    CTAsubtitle: "Join us in empowering Nepal's Adolescent Girls",
     CTAbutton: "Learn More",
     CTAbuttonLink: "/about",
   },
